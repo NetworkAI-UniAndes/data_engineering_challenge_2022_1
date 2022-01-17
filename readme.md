@@ -68,3 +68,7 @@ Hints
 - As the API have a limited reading capacity limit your parallel requests such that you perform around 60 reads per second.
 - Program your script to handle errors in case you receive a bad http response. In this case you can speed your code to handle 344 reads per second.
 - Use inner joins to retrieve your data.
+
+[Application form](https://forms.gle/ukxQnXPpmGjwSgfr6)
+-------
+Use the link to apply for the role, deadline 21th of January, 2022
