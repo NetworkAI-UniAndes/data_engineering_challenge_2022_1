@@ -28,7 +28,7 @@ Your deliverables are:
 1. A csv file containing only the airports with wikipedia page. This data file must be called **airports_w_wiki.csv** and be uploaded in your github. 
 2. A REST API that retrieves the closest airport for each user, and that allows the user to find the wikipedia page of it's closest airport by introducing their user id. 
 
-As we're only interested into the airports with wikipedia pages, therefore we want you to create first a datafile containing only the airports with wikipedia page called **airports_w_wiki.csv**. This file must be uplodaded into your repository. 
+As we're only interested into the airports with wikipedia pages, therefore we want you to create first a datafile containing only the airports with wikipedia page called **airports_w_wiki.csv**. This file must be uploaded into your repository. 
 
 After that we want you to create an API that returns the closest airport for each user. This API must be conected to a database containg 100,000 points with two fields: "user_id" and "airport_id". Then we must be able retrieve the data using the route **/nearest_airports/<user_id>**
 
@@ -36,7 +36,7 @@ Finally, this same API must also allow the user to query the wikipedia page of i
 
 ## Evaluation
 -----
-We will evaluate your code accuraccy against the ground truth for the closest airports. We will do this using a **eval.py** script. This script will only need to change the **BASE_PATH** constant to work with your API, therefore be sure that your API is able to retrieve data with the following comands. 
+We will evaluate your code accuracy against the ground truth for the closest airports. We will do this using a **eval.py** script. This script will only need to change the **BASE_PATH** constant to work with your API, therefore be sure that your API is able to retrieve data with the following comands. 
 ``` python 
 requests.get(BASE_PATH+'/nearest_airports/<user_id>').json()["data"]["airport_id"]
 ```
