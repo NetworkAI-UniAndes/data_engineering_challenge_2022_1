@@ -13,7 +13,7 @@ To find the closest airports please use the list of registered airports in the [
 
 
 <p align="center">
-  <img src="https://www.collinsdictionary.com/images/full/airport_324754607.jpg" />
+  <img src="./assets/airport_324754607.jpeg" />
 </p>
 
 ## Context 
